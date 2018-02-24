@@ -1,6 +1,5 @@
 const express = require('express');
 const passport = require('passport');
-const LocalStrategy = require('passport-local').Strategy;
 const passportJwt = require('passport-jwt');
 const jwt = require('jsonwebtoken');
 const JwtStrategy = require('passport-jwt').Strategy
